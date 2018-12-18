@@ -1,0 +1,24 @@
+Hash function : string to largeNumber, largeNumber to index.
+step 1 : largeNumber = bit[n] * constant^n + bit[n-1] * constant^n-1 +... reduce conflict
+step 2 : index = largeNumber % smallRange reduce the size of array
+
+
+Array
+1. with link list
+    insert to head
+    insert to tail
+2. linear probing : x+1, x+2, x+3,...
+3. quadratic probing : x+1*1, x+2*2, x+3*3,...
+4. reHash : n = constant - (key % constant)
+
+
+
+
+
+
+
+
+
+
+
+
